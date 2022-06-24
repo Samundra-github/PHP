@@ -89,38 +89,37 @@
 
     // 6. Write a PHP program to sort the given array.
     //  [2, 17, 6, 3, 12, 9, 8]
-    // Ascending 
-    // ODD
-    // Even
-    $input = array(2, 17, 6, 3, 12, 9, 8);
-    sort($input);
-    $arrlength = count($input);
-    echo "Ascending Array : ";
-    for($x = 0; $x < $arrlength; $x++) {
-        echo " $input[$x] "; // Printing Ascending Array
-    }
+    // Ascending // ODD // Even
     
-    function oddCmp($input) {
-        return ($input & 1); // returns odd
-    }
-    function evenCmp($input) {
-        return !($input & 1); // returns even
-    }
-    $odd = array_filter($input, "oddCmp"); // filter odd index element
-    $odd = array_values(array_filter($odd)); // re-indexing array
+    // $input = array(2, 17, 6, 3, 12, 9, 8);
+    // sort($input);
+    // $arrlength = count($input);
+    // echo "Ascending Array : ";
+    // for($x = 0; $x < $arrlength; $x++) {
+    //     echo " $input[$x] "; // Printing Ascending Array
+    // }
+    
+    // function oddCmp($input) {
+    //     return ($input & 1); // returns odd
+    // }
+    // function evenCmp($input) {
+    //     return !($input & 1); // returns even
+    // }
+    // $odd = array_filter($input, "oddCmp"); // filter odd index element
+    // $odd = array_values(array_filter($odd)); // re-indexing array
   
-    $even = array_filter($input, "evenCmp"); // filter even index element
-    $even = array_values(array_filter($even)); // re-indexing
+    // $even = array_filter($input, "evenCmp"); // filter even index element
+    // $even = array_values(array_filter($even)); // re-indexing
   
-    print" <br> Odd Array : ";
-    array_map(function($value){
-        echo " $value ";
-    }, $odd); // printing odd indexed array
+    // print" <br> Odd Array : ";
+    // array_map(function($value){
+    //     echo " $value ";
+    // }, $odd); // printing odd indexed array
   
-    print" <br> Even Array : ";
-    array_map(function($value){
-        echo " $value ";
-    }, $even); // printing even indexed array
+    // print" <br> Even Array : ";
+    // array_map(function($value){
+    //     echo " $value ";
+    // }, $even); // printing even indexed array
     
 
 

@@ -1,0 +1,1 @@
+The PHP fwrite() function is used to write content of the string into file. PHP fwrite() and fputs() functions are used to write data into file. To write data into file, you need to use w, r+, w+, x, x+, c or c+ mode.

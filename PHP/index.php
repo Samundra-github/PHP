@@ -313,8 +313,42 @@
     // }    
     // $t = new child;    
     // $t->test_first(); 
-    
+
 ?>
+<!-- Include and Require:-
+    It is possible to insert the content of one PHP file into another 
+    PHP file (before the server executes it), with the include or require 
+    statement. -->
+
+<!-- include will only produce a warning (E_WARNING) and the script will continue, -->
+<!-- <?php include 'header.php' ?> -->
+<!-- <?php include 'index.html' ?> -->
+
+<!-- require will produce a fatal error (E_COMPILE_ERROR) and stop the script, -->
+<!-- <?php require 'footer.php' ?> -->
+
+<?php
+    // PHP Cookie:-
+    // PHP cookie is a small piece of information which is stored at client browser. It is used to recognize the user.
+    // Syntax :-
+    // setcookie(name, value, expire, path, domain, secure, httponly);
+    // echo "Welcome to the PHP.";
+    // setcookie("category", "Books", time() + 86400, "/" );
+    // echo " <br>The cookie is set";
+?>
+
+<?php
+    // PHP Session:-
+    // PHP session is used to store and pass information from one page to another temporarily (until user close the website).
+    
+    // After verifing user login info,
+    // session_start();
+    // $_SESSION['username'] = "Samundra Bhandari";
+    // $_SESSION['favPlayer'] = "Wayne Rooney";
+    // echo "We have saved your session";
+?>
+
+
 
     </body>
 </html>

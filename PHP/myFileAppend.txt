@@ -1,0 +1,1 @@
+If you use a mode, it will not erase the data of the file. It will write the data at the end of the file. Visit the next page to see the example of appending data into file.
